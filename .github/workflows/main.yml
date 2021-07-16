@@ -16,6 +16,6 @@ jobs:
         with:
           registry: https://ghcr.io
           name: https://ghcr.io/Konstantin-Zhirnov/next/next
-          username: ${{ secret.DOCKER_USERNAME }}
-          password: ${{ secret.DOCKER_PASSWORD }}
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
           tags: "develop"
