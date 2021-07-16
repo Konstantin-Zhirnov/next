@@ -14,8 +14,8 @@ jobs:
       - name: Publish to Registry
         uses: elgohr/Publish-Docker-Github-Action@master
         with:
-          registry: docker.pkg.github.com
-          name: docker.pkg.github.com/Konstantin-Zhirnov/next/next
+          registry: https://ghcr.io
+          name: https://ghcr.io/Konstantin-Zhirnov/next/next
           username: ${{ secret.DOCKER_USERNAME }}
           password: ${{ secret.DOCKER_PASSWORD }}
           tags: "develop"
