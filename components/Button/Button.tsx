@@ -28,5 +28,3 @@ export const Button = ({ appearance, arrow = 'none', children, className, ...pro
 		</motion.button>
 	);
 };
-
-// for commit
